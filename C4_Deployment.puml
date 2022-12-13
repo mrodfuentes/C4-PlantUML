@@ -39,8 +39,8 @@ SetDefaultLegendEntries("person\nsystem\ncontainer\nexternal_person\nexternal_sy
 ' therefore (Deployment_)Node() implements an automatic line break based on spaces (like in all other objects).
 ' If a $type contains \n then these are used (and no automatic space based line breaks are done)
 ' $NODE_TYPE_MAX_CHAR_WIDTH defines the automatic line break position
-!global $NODE_TYPE_MAX_CHAR_WIDTH = 35
-!global $NODE_DESCR_MAX_CHAR_WIDTH = 32
+!global $NODE_TYPE_MAX_CHAR_WIDTH = 17
+!global $NODE_DESCR_MAX_CHAR_WIDTH = 16
 
 ' $breakTechn() in C4 supports //...//; $breakNode() in C4_Deployment supports no //....//
 !unquoted function $breakNode($text, $widthStr)
